@@ -276,7 +276,6 @@ fueIrregular = any esMesaIrregular.mesas
 esMesaIrregular :: Mesa -> Bool
 esMesaIrregular mesa = cantidadDeVotos mesa > cantidadVotantesHabilitados mesa
 
---Uso cantidadDeVotosSegun con id porque no quiero aplicarles ningun cambio a los votos (por ejempl)
 cantidadDeVotos :: Mesa -> Number
 cantidadDeVotos = length.votos
 
